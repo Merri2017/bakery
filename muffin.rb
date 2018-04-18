@@ -18,7 +18,7 @@ class Muffin
 	end
 end
 
-muffin1 = Muffin.new("Orange Muffins","Orange Muffins are gluten/wheat free and made with natural ingredients. " , 2.50, 1)
+muffin_one = Muffin.new("Orange Muffins","Orange Muffins are gluten/wheat free and made with natural ingredients. " , 2.50, 1)
 # puts cookie1
 # .total_price(1.50, 2)
-muffin2 = Muffin.new("Corn Muffins", "Corn Muffins are gluten free and made with natural ingredients.", 1.50, 1)
+muffin_two = Muffin.new("Corn Muffins", "Corn Muffins are gluten free and made with natural ingredients.", 1.50, 1)

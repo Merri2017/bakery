@@ -1,5 +1,5 @@
 # write class here
-require './cookie.rb'
+# require './cookie.rb'
 #later test if I can delete class and only have the new objects.
 
 class Bread
@@ -20,4 +20,4 @@ end
 bread1 = Bread.new("Banana Loaf","Banana Bread is gluten/wheat free and made with natural ingredients. " , 4.00, 1)
 # puts cookie1
 # .total_price(1.50, 2)
-bread2 = Bread.new("Oat Cookies", "Oat Cookies are gluten free and made with natural ingredients.", 1.00, 1)
+bread2 = Bread.new("Rustic Bread", "Rustic Bread is gluten free and made with natural ingredients.", 3.00, 1)

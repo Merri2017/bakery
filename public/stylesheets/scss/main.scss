@@ -4,8 +4,23 @@
 // light pale tan  wood brown #c4ao6a 
 // light pale cool tan tan #d1b58b
 
-$header-color:#935C1D;
+$main-header-color:#935C1D;
+$main-text-color:#a27035;
+$button-color:#b88b4a;
+$link-color:#c4ao6a;
+$background-color:#d1b58b;
 
 h1{
-	color: $header-color;
+	color: $main-header-color;
+}
+
+.bread-divs{
+	background-color: $background-color;
+	color: $main-text-color;
+	height: 800px;
+	width: 1200px;
+}
+.img-size{
+	height:400px;
+	width:500px;
 }

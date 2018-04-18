@@ -21,10 +21,9 @@ class Cookie
 	end
 end
 
-# cookie1 = Cookie.new("Chocolate Chip Cookies","Chocolate Chip Cookies are gluten/wheat free and made with natural ingredients. " , 1.50, 1)
+cookie1 = Cookie.new("Chocolate Chip Cookies","Chocolate Chip Cookies are gluten/wheat free and made with natural ingredients. " , 1.50, 1)
 # puts cookie1
 # .total_price(1.50, 2)
 cookie2 = Cookie.new("Oat Cookies", "Oat Cookies are gluten free and made with natural ingredients.", 1.00, 1)
-renderer = ERB.new(template)
-puts = renderer.result(cookie2.total_price)
+
 
