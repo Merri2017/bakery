@@ -1,10 +1,10 @@
 require 'rubygems'
 require 'sinatra'
 require 'sendgrid-ruby'
+require './cookie.rb'
 
 get '/' do
 	erb :index
-
 end
 
 get '/bread' do 
@@ -13,6 +13,7 @@ get '/bread' do
 end
 
 get '/cookies' do
+	
 	erb :cookies
 
 end
