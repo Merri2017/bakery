@@ -1,9 +1,26 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/main.css">
 </head>
 	<body>
-		<img src="">
+		<div class="bread-divs">
+			<img src="stylesheets/scss/images/bananabread.jpg" class="img-size">
+			<h1> <%= @bread_one.name %></h1>
+			<p> <%= @bread_one.description %> </p>
+			<p> <%= @bread_one.price %></p>
+			<p> <%= @bread_one.quantity %></p>
+			<button></button>
+		</div>
+		
+		<div class="bread-divs">
+			<img src="stylesheets/scss/images/rusticbread.jpg" class="img-size">
+			<h1> <%= @bread_two.name %></h1>
+			<p> <%= @bread_two.description %></p>
+			<p> <%= @bread_two.price %></p>
+			<p> <%= @bread_two.quantity %></p>	
+		</div>
+		
 
 	</body>
 </html>
