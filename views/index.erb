@@ -1,25 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/css/main.css">
+  <title></title>
+  <link rel="stylesheet" href="stylesheets/css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+      
+
+  <meta charset="utf-8">
 </head>
-	<div id="head-container">
-		<h1>Panem Bread</h1>
-	<!-- 	<iframe src="https://giphy.com/embed/3o85fQoSgImlOoYipa" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/baking-baker-bake-3o85fQoSgImlOoYipa">via GIPHY</a></p> -->
-		<h2>Old fashion, walk-in bakery. Hand-made with fresh ingredients. Everything is gluten-free. </h2>
-	</div>
-	<div id="img-container">
-		<img src="stylesheets/scss/images/main_cookies.jpg" class="img-size">
-		<img src="stylesheets/scss/images/mainbread.jpg" class="img-size">
-		<img src="stylesheets/scss/images/main_muffin.jpg" class="img-size">
-	</div>
+<body>  
+  <div id="head-container">
+    <h1 id="title">PANEM BREAD</h1>
+    <h2 id="summary">Old-fashioned, walk-in bakery. Hand-made with fresh ingredients. Everything is gluten-free.</h2>  
+</div>
+<!-- cookie -->
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <a href="/cookies"><img src="stylesheets/scss/images/main_cookies.jpg" class="img-moo"></a>
+          <h2 class="card-title"></h2>
+        </div>
+        <div class="card-content">
+          <h4>Healthy, Gluten-Free Cookies</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	
+ <!--  bread -->
+ <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <a href="/bread"><img src="stylesheets/scss/images/mainbread.jpg" class="img-moo"></a>
+          <h2 class="card-title"></h2>
+        </div>
+        <div class="card-content">
+          <h4>Hand-made and Freshly Baked Bread.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Muffins -->
+   <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <a href="/muffins"><img src="stylesheets/scss/images/main_muffin.jpg" class="img-moo"></a>
+          <h2 class="card-title"></h2>
+        </div>
+        <div class="card-content">
+          <h4>Earthy and Wholesome Muffins.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--   form -->
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+      <div class="row">
+         <h2 id="summary">Enter Email To Subscribe</h2>
+        <div class="input-field col s12">
+
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+          <button class="btn waves-effect waves-dark" type="submit" name="action">Submit</button>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
 
 
-
-<body>
-
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script type="scripts/main.js"></script>
 </body>
 </html>
