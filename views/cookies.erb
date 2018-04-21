@@ -3,17 +3,34 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/main.css">
 </head>
 <body>
-	<h1> <%= @cookie1.name %></h1>
-	<p> <%= @cookie1.description %> </p>
-	<p> <%= @cookie1.price %></p>
-	<p> <%= @cookie1.quantity %></p>
+	<nav>
+		<ul>
+			<li><a class="active" href="/">Panem</a></li>
+			<li><a href="/bread">Bread</a></li>
+			<li><a href="/cookies">Cookies</a></li>
+			<li><a href="/muffins">Muffins</a></li>
+		</ul>
+	</nav>
+	<div class="bread-divs">
+		<h1> <%= @cookie_one.name %> </h1>
+		<img src="stylesheets/scss/images/chococookie.jpg" class="img-size">
+		<h5> <%= @cookie_one.description %> </h5>
+		<h5>$ <%= @cookie_one.price %>0</h5>
+		<h5> <%= @cookie_one.quantity %></h5 
+	</div>
 
-	<h1> <%= @cookie2.name %></h1>
-	<p> <%= @cookie2.description %> </p>
-	<p> <%= @cookie2.price %></p>
-	<p> <%= @cookie2.quantity %></p>
+	<div class="bread-divs">
+		<h1> <%= @cookie_two.name %></h1>
+		<img src="stylesheets/scss/images/oatcookies.jpg" class="img-size">
+		<h4>Description</h4>
+		<h5> <%= @cookie_two.description %> </h5>
+		<h4>Price</h4>
+		<h5>$<%= @cookie_two.price %>0</h5>
+		<h5> <%= @cookie_two.quantity %>
+	</div>
 
 </body>
 </html>

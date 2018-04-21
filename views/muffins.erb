@@ -2,17 +2,39 @@
 <html>
 <head>
 	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/main.css">
 </head>
 <body>
-	<h1> <%= @muffin_one.name %></h1>
-	<p> <%= @muffin_one.description %> </p>
-	<p> <%= @muffin_one.price %></p>
-	<p> <%= @muffin_one.quantity %></p>
+	<nav>
+		<ul>
+			<li><a class="active" href="/">Panem</a></li>
+			<li><a href="/bread">Bread</a></li>
+			<li><a href="/cookies">Cookies</a></li>
+			<li><a href="/muffins">Muffins</a></li>
+		</ul>
+	</nav>
+	<div class="bread-divs">
+		<h1> <%= @muffin_one.name %></h1>
+		<img src="stylesheets/scss/images/orangemuffins.jpg" class="img-size">
+		<h4>Description</h4>
+		<h5> <%= @muffin_one.description %> </h5>
+		<h4>Price</h4>
+		<h5> <%= @muffin_one.price %>0</h5>
+		<h4>Quantity</h4> 
+		 <p> <%= @muffin_one.quantity %></p>
+	</div>
 
-	<h1> <%= @muffin_two.name %></h1>
-	<p> <%= @muffin_two.description %> </p>
-	<p> <%= @muffin_two.price %></p>
-	<p> <%= @muffin_two.quantity %></p>
+	<div class="bread-divs">
+		<h1> <%= @muffin_two.name %></h1>
+		<img src="stylesheets/scss/images/cornmuffin.jpg" class="img-size">
+		<h4>Description</h4>
+		<h5> <%= @muffin_two.description %> </h5>
+		<h4>Price</h4>
+		<h5>$<%= @muffin_two.price %>0</h5>
+		<!-- <h4>Quantity</h4> -->
+		<!-- <h5> <%= @muffin_two.quantity %></h5> -->
+	</div>
 
 </body>
 </html>
