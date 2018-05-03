@@ -17,7 +17,7 @@ class Bread
 	end
 end
 
-bread1 = Bread.new("Banana Loaf","Banana Bread is gluten/wheat free and made with natural ingredients. " , 4.00, 1)
-# puts cookie1
-# .total_price(1.50, 2)
-bread2 = Bread.new("Rustic Bread", "Rustic Bread is gluten free and made with natural ingredients.", 3.00, 1)
+# bread1 = Bread.new("Banana Loaf","Banana Bread is gluten/wheat free and made with natural ingredients. " , 4.00, 1)
+# # puts cookie1
+# # .total_price(1.50, 2)
+# bread2 = Bread.new("Rustic Bread", "Rustic Bread is gluten free and made with natural ingredients.", 3.00, 1)
